@@ -82,7 +82,7 @@
    <widget class="QLabel" name="Sensor2">
     <property name="geometry">
      <rect>
-      <x>300</x>
+      <x>20</x>
       <y>69</y>
       <width>47</width>
       <height>21</height>
@@ -95,14 +95,63 @@
    <widget class="QLabel" name="Sensor3">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>120</y>
+      <x>300</x>
+      <y>150</y>
       <width>47</width>
       <height>20</height>
      </rect>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>111</width>
+      <height>111</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="On">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>On</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Off">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>60</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Of</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>90</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Find</string>
     </property>
    </widget>
   </widget>
